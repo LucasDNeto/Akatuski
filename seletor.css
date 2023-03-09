@@ -1,0 +1,163 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    height: 100vh;
+    
+}
+.bgimage{
+    background-image: url('imagem\ seletor/img22.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: fixed;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+    
+}
+header{
+    background-color: #ffffff49;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    
+}
+
+nav {
+    background-color: #ffffff49;
+    padding: 15px 5px;
+    text-align: center;
+    
+}
+
+nav > a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin-right: 30px;
+}
+
+nav > a:hover {
+    text-decoration: underline;
+}
+
+
+
+main {
+    padding: 10px;
+    margin: 10px;
+}
+
+.tx{
+    font-size: 28px;
+}
+.tx:hover{
+    background-color: rgb(5, 2, 2);
+    color: rgb(241, 241, 241);
+    border-radius: 20px;
+    width: 160px;
+    text-align: center;
+}
+
+article {
+    
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+    gap: 20px;  
+    padding: 10px 30px;
+    color: white;
+    
+    
+}
+
+.img01{
+    width: 90%;
+    border-radius: 20px;
+}
+@media (min-width:1024px){
+    .img01{
+        width: 60%;
+
+
+    }
+}
+
+.itachi{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+
+} 
+
+#zeviik{
+    
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+    gap: 20px;  
+    padding: 10px 30px;
+}  pqp
+.img02{
+    border-radius: 20px;
+}
+@media (min-width:1024px){
+    .img02{
+        width: 60%;
+        
+
+    }
+}
+p{
+    font-weight: bold;
+    font-size: 1.2rem;
+    
+}
+
+article > aside {
+    background-color: #ffffff49;
+
+
+}
+
+.animacaodiv > p{
+    color: transparent;
+    transition: 600ms all ease-in;
+    padding: 5px 10px;
+    
+} 
+
+.animacaodiv:hover > p{
+    display: block;
+    color: #eee9e9;
+    border-radius: 10px;
+    
+} 
+acho que sim
+.vagabundo{
+    text-align: center;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    
+}
+
+.vagabundo:hover{
+    background-color: rgb(226, 41, 27);
+    text-align: center;
+    border-radius: 20px;
+    text-align: center;
+}
+
+
+footer { 
+    background-color: rgb(255, 237, 237);
+    color: rgb(7, 5, 5);
+    text-align: center;
+    padding: 5px;
+    margin: 0px;
+    border-radius: 20px;
+}
